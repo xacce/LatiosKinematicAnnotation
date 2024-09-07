@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Src.GameReady.LatiosHumanoidBodyBone
+namespace LatiosKinematicAnnotation.Authoring.So
 {
     [CreateAssetMenu(menuName = "Latios/Ext/Serialize paths")]
     public class LatiosPathsSo : ScriptableObject, ISerializationCallbackReceiver

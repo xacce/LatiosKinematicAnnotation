@@ -1,9 +1,10 @@
 ﻿#if UNITY_EDITOR
-using Src.GameReady.LatiosHumanoidBodyBone;
+using LatiosKinematicAnnotation.Authoring.So;
+using Src.GameReady.DotsRag.Authoring;
 using UnityEditor;
 using UnityEngine;
 
-namespace Src.GameReady.DotsRag.Authoring.Editor
+namespace LatiosKinematicAnnotation.Authoring.Editor
 {
     [CustomEditor(typeof(LatiosEditorBones))]
     public class LatiosEditorBonesEditor : UnityEditor.Editor

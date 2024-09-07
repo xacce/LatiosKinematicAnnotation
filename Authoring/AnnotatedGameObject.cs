@@ -1,8 +1,8 @@
 ﻿#if UNITY_EDITOR
-using Src.GameReady.LatiosHumanoidBodyBone.So;
+using LatiosKinematicAnnotation.Authoring.So;
 using UnityEngine;
 
-namespace Src.GameReady.DotsRag.Authoring
+namespace LatiosKinematicAnnotation.Authoring
 {
     public class AnnotatedGameObject : MonoBehaviour
     {

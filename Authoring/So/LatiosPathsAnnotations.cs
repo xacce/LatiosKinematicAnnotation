@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace Src.GameReady.LatiosHumanoidBodyBone.So
+namespace LatiosKinematicAnnotation.Authoring.So
 {
     [CreateAssetMenu(menuName = "Latios/Ext/Annotations")]
     public class LatiosPathsAnnotations : ScriptableObject

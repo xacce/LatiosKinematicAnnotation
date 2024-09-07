@@ -1,7 +1,7 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
 
-namespace Src.GameReady.LatiosHumanoidBodyBone.So
+namespace LatiosKinematicAnnotation.Authoring.So
 {
     [CreateAssetMenu(menuName = "Latios/Ext/Annotate path")]
     public class LatiosPathAnnotationSo : ScriptableObject

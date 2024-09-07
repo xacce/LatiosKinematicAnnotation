@@ -1,11 +1,11 @@
 ﻿#if UNITY_EDITOR
 using System;
 using System.Linq;
-using Src.GameReady.LatiosHumanoidBodyBone.So;
+using LatiosKinematicAnnotation.Authoring.So;
 using UnityEditor;
 using UnityEngine;
 
-namespace Src.GameReady.DotsRag.Authoring
+namespace LatiosKinematicAnnotation.Authoring
 {
     [CustomPropertyDrawer(typeof(LatiosPathsAnnotations._Annotate))]
     public class ReconstructIntFromPathDrawer : PropertyDrawer
