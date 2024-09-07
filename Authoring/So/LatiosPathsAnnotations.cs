@@ -1,5 +1,7 @@
 ﻿#if UNITY_EDITOR
 using System;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 namespace LatiosKinematicAnnotation.Authoring.So
@@ -8,7 +10,7 @@ namespace LatiosKinematicAnnotation.Authoring.So
     public class LatiosPathsAnnotations : ScriptableObject
     {
         [Serializable]
-        public struct _Annotate
+        public class _Annotate
         {
             public string path;
             public LatiosPathAnnotationSo annotation;
@@ -16,6 +18,8 @@ namespace LatiosKinematicAnnotation.Authoring.So
 
         [SerializeField] public LatiosPathsSo paths;
         [SerializeField] public _Annotate[] annotates = Array.Empty<_Annotate>();
+
+       
 
         public bool TryGetPathAnnotated(LatiosPathAnnotationSo annotated, out string path)
         {

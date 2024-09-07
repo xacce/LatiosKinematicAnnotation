@@ -139,7 +139,7 @@ namespace LatiosKinematicAnnotation.Authoring
                         position = t.position,
                         orientation = t.rotation,
                         boneIndex = i,
-                        path = String.Join("/", wp.ConvertToString().Split('/').Reverse().Skip(1))
+                        path = String.Join("/", wp.ConvertToString().Split('/').Reverse().Skip(2))//2 - first fake slash, second - root object name, latios put it inside path
                     };
                     prop.GetArrayElementAtIndex(i).boxedValue = value;
                 }
