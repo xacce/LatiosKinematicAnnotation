@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace LatiosKinematicAnnotation.Authoring
 {
+    [DisallowMultipleComponent]
     public class AnnotatedGameObject : MonoBehaviour
     {
         [SerializeField] public LatiosPathAnnotationSo annotation_s;

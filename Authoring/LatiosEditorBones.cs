@@ -9,7 +9,7 @@ using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
 
-namespace Src.GameReady.DotsRag.Authoring
+namespace LatiosKinematicAnnotation.Authoring
 {
     struct WrappedPath : INativeList<byte>, IUTF8Bytes
     {
